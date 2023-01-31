@@ -7,8 +7,7 @@ import { PhantomWalletAdapter , } from "@solana/wallet-adapter-phantom";
 import { LedgerWalletAdapter } from "@solana/wallet-adapter-ledger"
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
 
-const network =
-  "https://black-winter-spring.solana-mainnet.discover.quiknode.pro/69fa69dd110279fa7c341e0c5d3b1447e874976a/";
+const network = process.env.RPC_ENDPOINT;
 
 const RootLayout = ({ children }: { children: any }) => {
   // const network = "https://api.mainnet-beta.solana.com/";

@@ -23,6 +23,7 @@ const nextConfig = {
     MAPBOX_ACCESS_TOKEN: process.env.MAPBOX_ACCESS_TOKEN,
     MAPBOX_STYLE: process.env.MAPBOX_STYLE,
     MINT_TOKEN: process.env.MINT_TOKEN,
+    RPC_ENDPOINT: process.env.RPC_ENDPOINT,
   },
 };
 
